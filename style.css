@@ -1,0 +1,120 @@
+:root{
+    --pink: #d36699;
+    --green: #39a038;
+    --purple1: #b366f9;
+    --lightblue:#74a9f6;
+    --background: rgb(21, 20, 26);
+    --background2: #23222b;
+    --link: rgba(211,102,153,0.7);
+    --white2: #cfcfd8;
+    --white1: #fbfbfe;
+    --textborder:rgba(207,207,216,0.6509803921568628);
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--white1);
+    font-family: 'Fira Code', monospace;
+    flex-flow: wrap;
+}
+
+body{
+    line-height: 1.7em;
+    text-align: justify;
+    scroll-behavior: smooth;
+    
+;
+
+}
+header{
+    margin: 30px;
+    width: 80vw;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+main{
+    width: 90vw;
+    margin: 5px 30px 30px 30px;
+    
+}
+a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 2px;
+    box-shadow: 3px 3px var(--textborder);
+    background-color: var(--background2);
+    color: var(--purple1);
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    height: 16vh;
+    margin-bottom: 15%;
+
+}
+
+.purple{
+    color:var(--purple1);
+}
+.pink{
+    color: var(--pink);
+}
+div.formula{
+    position:relative;
+    left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid ;
+}
+.formula{
+    background-color: var(--background2);
+    color: var(--purple1);
+    text-shadow: 2px 0px var(--green);
+    width: 60vw;
+    
+    box-shadow: 3px 3px ;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+h3{
+    margin-top: 5%;
+    color: var(--pink);
+}
+.bread{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--background2);
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+.green{
+    color: var(--green);
+}
+.lightblue{
+    color:var(--lightblue);
+    background-color: var(--background2);
+}
